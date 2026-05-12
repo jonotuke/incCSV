@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 incCSV.code-workspace
+^\.github$
+^README\.Rmd$
