@@ -1,0 +1,34 @@
+Package: incCSV
+Title: Read and Write INC Files (INI Metadata + CSV Data)
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+        person(
+        given = "Jono", 
+        family = "Tuke", 
+        email = "jonotuke@gmail.com", 
+        role = c("aut"),
+        comment = c(ORCID = "0000-0002-1688-8951")
+        ), 
+        person(
+        given = "Matthew", 
+        family = "Roughan", 
+        email = "matthew.roughan@adelaide.edu.au", 
+        role = c("aut", "cre")
+        ),
+        person(
+        given = "Lewis", 
+        family = "Mitchell", 
+        email = "lewis.mitchell@adelaide.edu.au", 
+        role = c("aut")
+        )
+    )
+Description: Reads and writes INC files, a lightweight format that prepends
+    INI-style metadata to a CSV file separated by '---' delimiters. Provides
+    lightweight metadata schemas and validation. A thin layer over 'readr'
+    that preserves ordinary CSV workflows while adding simple, human-readable
+    metadata.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
